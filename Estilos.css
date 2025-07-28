@@ -1,0 +1,143 @@
+/* CUERPO */
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #1b1b1b;
+    text-align: justify;
+}
+
+/* ELEMENTOS DEL MENU PRINCIPAL */
+nav{
+    background-color: rgb(169, 158, 158);
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    font-style: oblique;
+    border-radius: 10px;
+
+}
+nav ol li{
+    display: inline-block;
+    position: relative;
+    font-family: Californian FB;
+}
+nav ol li a{
+    display: block;
+    padding: 10px 18px;
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+}
+nav ol li a:hover{
+    color: rgb(1, 61, 126);
+    background-color: rgb(189, 237, 255);
+    border-radius: 10px;
+    font-family: Condensed;
+}
+
+/* TITULO h1 */
+h1{
+    text-decoration: underline;
+}
+
+/* TITULOS DE CADA SECCION */
+h3{
+    font-family: algerian;
+    color: rgb(124, 124, 227);    
+}
+
+/* SECCIONES */
+section{
+    box-shadow: 0 2px 5px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 0.2px dotted;
+}
+
+/* FORMULARIO */
+form{
+    padding: 25px;
+    margin:auto;
+    background-color: rgb(240, 235, 228);
+    width: 900px;
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input{
+    border: ipx solid #ccc;
+    border-radius: 4px;
+    width: 35%;
+}
+select{
+    border: ipx solid #ccc;
+    border-radius: 4px;
+}
+textarea{
+    border: ipx solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    width: 10%;
+    height: 25px;
+}
+input[type=submit]:hover{
+     background-color: #45a049;
+     width: 15%;
+}
+
+/* IMAGENES */
+img{
+    position: relative;
+    float: right;
+    box-shadow: 0 2px 5px;
+    margin: 3px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+/* DECORACION DEL LINK */
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+/* DECORACION TABLA */
+.decoracion_tabla tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.decoracion_tabla tr th{
+    background-color: rgb(200, 200, 187);
+    text-align: center;
+    font-style: oblique;
+    font-size: 18px;
+}
+
+/* DECORACION EMAIL */
+.color_email p{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+header{
+    background-color: gray;
+    font-style: oblique;
+    margin: 0;
+    border-radius: 10px;
+}
+
+/* PIE DE PAGINA */
+footer{
+    background-color: gray;
+    padding: 40px;
+    margin: 0;
+}
